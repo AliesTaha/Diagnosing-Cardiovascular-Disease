@@ -44,7 +44,7 @@ One-hot encoding is applied using pandas to convert categorical variables into a
 ## Model Building
 ### Decision Tree
 A Decision Tree model is implemented with varying min_samples_split and max_depth to observe their impact on performance.
-![image](https://github.com/AliesTaha/Diagnosing-Cardiovascular-Disease/assets/103478551/c42988d3-aa27-45a7-8776-dd562768e1b2)
+![image](https://github.com/AliesTaha/Diagnosing-Cardiovascular-Disease/assets/103478551/c42988d3-aa27-45a7-8776-dd562768e1b2)<br>
 Note how increasing the the number of min_samples_split reduces overfitting.
 Increasing min_samples_split from 10 to 30, and from 30 to 50, even though it does not improve the validation accuracy, it brings the training accuracy closer to it, showing a reduction in overfitting.
 
