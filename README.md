@@ -50,7 +50,7 @@ Increasing min_samples_split from 10 to 30, and from 30 to 50, even though it do
 
 ### Random Forest
 A Random Forest model explores the effects of n_estimators, min_samples_split, and max_depth on accuracy.
-![image](https://github.com/AliesTaha/Diagnosing-Cardiovascular-Disease/assets/103478551/7fde8368-e089-493d-8fc0-c99bae8929e1)
+![image](https://github.com/AliesTaha/Diagnosing-Cardiovascular-Disease/assets/103478551/7fde8368-e089-493d-8fc0-c99bae8929e1)<br>
 Notice that, even though the validation accuraty reaches is the same both at min_samples_split = 2 and min_samples_split = 10, in the latter the difference in training and validation set reduces, showing less overfitting.
 
 ### XGBoost
